@@ -2,16 +2,22 @@
 	"manifest_version": 2,
 	"name": "The Faker",
 	"version": "0.1",
-	"description": "Replaces the text 'Donald Trump' with 'The Faker' (c) RBG. Generated using https://replacer-extension-creator.herokuapp.com/",
-	"content_scripts":
-	[
+	"description": "Replaces the text 'Donald Trump' with 'The Faker' (c) RBG.",
+	"homepage_url": "https://github.com/pikaia/faker.git",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"content_scripts": [
 		{
-			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"content_script.js"
+			],
 			"run_at": "document_end"
 		}
-	],
-	"icons": {
-          "128": "icon128.png" }
-
+	]
 }
