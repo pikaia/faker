@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "The Faker",
+	"version": "0.1",
+	"description": "Replaces the text 'Donald Trump' with 'The Faker' (c) RBG. Generated using https://replacer-extension-creator.herokuapp.com/",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	],
+	"icons": {
+          "128": "icon128.png" }
+
+}
