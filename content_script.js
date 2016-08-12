@@ -26,7 +26,7 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 	
-    v = v.replace(/\bDonald Trump\b/g, "The Faker").replace(/\bTrump\b/g, "Faker").replace(/\bDonald\b/g, "The Faker");
+    v = v.replace(/\bDonald J. Trump\b/g, "The Faker").replace(/\bDonald Trump\b/g, "The Faker").replace(/\bTrump\b/g, "Faker").replace(/\bDonald\b/g, "The Faker");
 	
 	textNode.nodeValue = v;
 }
