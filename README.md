@@ -8,13 +8,8 @@ Installation (for Users)
 
 Just install the extension from [the Chrome Web Store](https://chrome.google.com/webstore/detail/the-faker/hfgjdobaoolfpckiddkndaefnfgmmgff)
 
-Then surf the web, comforted by the protection you are now afforded.
-
-
 Installation (for Developers)
 -------------------------
-Want to hack on the Trump Filter?  Sweet!
-
 Here's a howto to get the source of the Chrome Extension running in your environment.
 
 1) Grab latest source
@@ -28,9 +23,10 @@ Open Chrome.
 Navigate to Settings... Tools... Extensions.
 Click + on "Developer mode"
 Click "Load unpacked extensions..."
-Navigate to directory you installed Trump Filter and click Open.
-Chuckle to self as you reload this page and significant chunks of it suddenly disappear.
+Navigate to directory you installed faker and click Open.
 </pre>
+
+3) To change the icons, create a 128x128 png and generate other sizes using http://www.favicon-generator.org/
 
 
 License
