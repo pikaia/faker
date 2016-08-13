@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "The Faker",
 	"version": "0.4",
-	"description": "Replaces the text 'Donald Trump' with 'The Faker' (c) RBG.",
+	"description": "Make news real again!",
 	"homepage_url": "https://github.com/pikaia/faker.git",
 	"icons": {
 		"16": "favicon-16x16.png",
