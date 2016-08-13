@@ -22,7 +22,7 @@ function walk(node) {
 function handleText(textNode) {
 	var v = textNode.nodeValue;
 
-    v = v.replace(/@realDonaldTrump/g, "@realFaker").replace(/\bDonald Trumps\b/g, "Fakers").replace(/\bDonald J. Trump\b/g, "The Faker").replace(/\bDonald Trump\b/g, "The Faker").replace(/\bTrump\b/g, "Faker").replace(/\bDonald\b/g, "The Faker");
+    v = v.replace(/DonaldJTrump/gi, "TheFaker").replace(/realDonaldTrump/gi, "realFaker").replace(/Donald Trump/gi, "Faker").replace(/Donald J. Trump/gi, "The Faker").replace(/Trump/g, "Faker").replace(/Donald/g, "The Faker");
 
 	textNode.nodeValue = v;
 }
